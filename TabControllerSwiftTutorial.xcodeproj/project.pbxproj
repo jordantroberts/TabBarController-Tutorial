@@ -15,6 +15,8 @@
 		1783F12222B4FF1E00E51714 /* TabControllerSwiftTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F12122B4FF1E00E51714 /* TabControllerSwiftTutorialTests.swift */; };
 		1783F12D22B4FF1E00E51714 /* TabControllerSwiftTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F12C22B4FF1E00E51714 /* TabControllerSwiftTutorialUITests.swift */; };
 		1783F13B22B5034F00E51714 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F13A22B5034F00E51714 /* ProfileViewController.swift */; };
+		1783F13D22B5043A00E51714 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F13C22B5043A00E51714 /* MainTabBarController.swift */; };
+		1783F13F22B5044800E51714 /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F13E22B5044800E51714 /* ProfileNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1783F12C22B4FF1E00E51714 /* TabControllerSwiftTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerSwiftTutorialUITests.swift; sourceTree = "<group>"; };
 		1783F12E22B4FF1E00E51714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1783F13A22B5034F00E51714 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1783F13C22B5043A00E51714 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1783F13E22B5044800E51714 /* ProfileNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				1783F11522B4FF1E00E51714 /* LaunchScreen.storyboard */,
 				1783F11822B4FF1E00E51714 /* Info.plist */,
 				1783F13A22B5034F00E51714 /* ProfileViewController.swift */,
+				1783F13C22B5043A00E51714 /* MainTabBarController.swift */,
+				1783F13E22B5044800E51714 /* ProfileNavigationController.swift */,
 			);
 			path = TabControllerSwiftTutorial;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				1783F13B22B5034F00E51714 /* ProfileViewController.swift in Sources */,
 				1783F10F22B4FF1D00E51714 /* ViewController.swift in Sources */,
+				1783F13D22B5043A00E51714 /* MainTabBarController.swift in Sources */,
 				1783F10D22B4FF1D00E51714 /* AppDelegate.swift in Sources */,
+				1783F13F22B5044800E51714 /* ProfileNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

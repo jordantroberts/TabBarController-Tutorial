@@ -18,5 +18,7 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func Logout(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
     }
 }

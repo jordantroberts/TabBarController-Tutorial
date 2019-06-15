@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="634.78260869565224" y="-665.625"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="0Il-4T-zJh">
             <objects>
-                <tabBarController id="HME-XK-P3J" sceneMemberID="viewController">
+                <tabBarController id="HME-XK-P3J" customClass="MainTabBarController" customModule="TabControllerSwiftTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ysH-nu-RNE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -131,7 +131,7 @@
         <!--Item 1-->
         <scene sceneID="t3V-Ih-isO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LLj-aZ-BTM" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LLj-aZ-BTM" customClass="ProfileNavigationController" customModule="TabControllerSwiftTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="Hcb-LF-zwO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nCB-cV-SGC">
