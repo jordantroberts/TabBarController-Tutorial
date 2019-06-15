@@ -14,9 +14,16 @@ class ProfileViewController: UIViewController {
     var userName: String? 
     var passWord: String?
     
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var passwordLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        userNameLabel.text = userName
+        
+        passwordLabel.text = passWord
     }
+    
     @IBAction func Logout(_ sender: Any) {
         
         dismiss(animated: true, completion: nil)

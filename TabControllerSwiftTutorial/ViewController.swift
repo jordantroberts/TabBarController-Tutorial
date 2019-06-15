@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let mainTabBarController = segue.destination as? MainTabBarController {
+            mainTabBarController.userName = userNameTextField.text
+            mainTabBarController.password = passwordTextField.text
+            
+        }
+    }
 }
 
